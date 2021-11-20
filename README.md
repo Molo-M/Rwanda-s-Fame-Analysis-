@@ -9,3 +9,5 @@ This project is made up of 3 parts. Web scraping, analysis, and presentation. Us
 - Scrape Euro News
 - Scrape Reddit
 - Scrape Booking.com
+
+### NB: This project is still ongoing
