@@ -52,6 +52,14 @@ Dataset acquired: [AirBnB Data](https://github.com/Molo-M/Rwanda-s-Fame-Analysis
 
 Webscraping Program: [airbnb scraper.py](https://github.com/Molo-M/Rwanda-s-Fame-Analysis-/blob/main/Webscraping%20Programs/airbnb%20scraper.py)
 
+##### Scrape TripAdvisor:
+
+With the help of Selenium, we shall scrape information on all the stays in Rwanda from the TripAdvisor website.
+
+Dataset acquired: [TripAdvisor Data](https://github.com/Molo-M/Rwanda-s-Fame-Analysis-/blob/main/Datasets/Rwanda%20tripadvisor.csv)
+
+Webscraping Program: [Tripadvisor Rwanda stays.py](https://github.com/Molo-M/Rwanda-s-Fame-Analysis-/blob/main/Webscraping%20Programs/Tripadvisor%20Rwanda%20stays.py)
+
 #### Part 2: Exploratory Data Analysis
 Perform an initial analysis on the data collected so far. This will help us to understand the data collected and prepare us for the actual exploratory analysis.
 
