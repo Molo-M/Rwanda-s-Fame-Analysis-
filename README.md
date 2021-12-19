@@ -63,4 +63,6 @@ Webscraping Program: [Tripadvisor Rwanda stays.py](https://github.com/Molo-M/Rwa
 #### Part 2: Exploratory Data Analysis
 Perform an initial analysis on the data collected so far. This will help us to understand the data collected and prepare us for the actual exploratory analysis.
 
+Notebook: [Analysis](https://github.com/Molo-M/Rwanda-s-Fame-Analysis-/blob/main/Rwanda's%20Fame%20(Exploratory%20Data%20Analysis).ipynb)
+
 ### NB: This project is still ongoing.
