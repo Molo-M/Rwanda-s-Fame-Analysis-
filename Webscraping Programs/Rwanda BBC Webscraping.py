@@ -1,9 +1,11 @@
+# import useful libraries
 from bs4 import BeautifulSoup
 import requests
 import pandas as pd
 
 website_page = 'https://www.bbc.co.uk/search?q=rwanda'
 
+# Create information holders
 name = list()
 link = list()
 year = list()
@@ -13,6 +15,7 @@ channel = list()
 page_number = 1
 stop_number = 29
 
+# Begin scraping process
 while True:
 
     html_text = requests.get(website_page).text
@@ -108,4 +111,5 @@ news_dict = {'Name': name, 'Channel': channel, 'Category': categories, 'Year': y
 df = pd.DataFrame(news_dict)
 print(df)
 
-# df.to_csv(r'C:\Users\HP\PycharmProjects\pythonProject' + '\\Rwanda_BBC_Data.csv', index=False)
+# save file to local pc
+df.to_csv(r'C:\Users\HP\PycharmProjects\pythonProject' + '\\Rwanda_BBC_Data.csv', index=False)
